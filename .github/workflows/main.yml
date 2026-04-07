@@ -7,7 +7,7 @@ on:
     branches: [ main ]
   schedule:
     # 1시간마다 한 번씩 실행 (UTC 시간 기준)
-    - cron: "0 */1 * * *"
+    - cron: "0 0 * * *"
 
 jobs:
   build:
